@@ -1,4 +1,4 @@
-# vue3 rosiehitchins.co.uk
+# vue3 rosiehitchins.com
 
 ## Project setup
 ```
