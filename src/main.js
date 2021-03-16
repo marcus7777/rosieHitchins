@@ -14,7 +14,7 @@ request.onload = function() {
 
   const router = createRouter({
     history: createWebHistory(),
-    routes: Object.keys(data).map(d => {
+    routes: [ ...Object.keys(data).map(d => {
       const p = data[d]
       const html = p.body.split("<a href=\"/").map((h,i) => {
         if (!i) return h // not the first part
@@ -27,13 +27,13 @@ request.onload = function() {
         component: {
           template: `<div>${html}</div>`
         },
-	meta:{
+        meta:{
           images: p.images,
-	},
+        },
         menu: p.menu,
         weight: +p.weight,
       }
-    })
+    }), {path: "", redirect: '/home', menu: ""}]
   })
  
   app.use(router).mount('#app')
