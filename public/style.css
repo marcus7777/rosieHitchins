@@ -1,0 +1,28 @@
+body{margin-top:0;color:#000;font:76% Verdana,Arial,Helvetica,sans-serif;background:#fff}
+h1,h2,h3,h4,h5,h6{margin-bottom:.5em}
+h1{font-size:45px}
+h2{font-size:1.2em}
+h3,h4,h5,h6{font-size:1.1em}
+p{margin-top:.5em;margin-bottom:.9em}
+a{text-decoration:none;font-weight:700}
+a:link{color:#022179}
+a:visited{color:#022179}
+a:hover{color:#39c;text-decoration:underline}
+#wrapper{width:800px;margin:auto}
+#header{background:url(header.jpg);height:100px;display:block}
+.site-name{margin:0;padding:25px 0 0 25px;font-size:25px;font-weight:700}
+.site-name a:link,.site-name a:visited{color:#e7e7e7;font-weight:lighter}
+.site-name a:hover{color:#bbb;text-decoration:none}
+.site-slogan{font-size:1.2em;color:#ccc;display:block;margin-left:25px;font-style:italic;font-weight:lighter}
+#primary{display:block;height:22px;border:1px solid #7d7d7d;background:url(top-nav.png);font-size:11px;margin:0 0 22px 0}
+#primary ul.links li{border-left:0;padding:0}
+#primary a{padding:5px 8px;min-width:12px;display:block;float:left;text-align:center;background:url(top-nav-right.png) right no-repeat;color:#000;font-weight:700}
+#primary a.router-link-active,#primary a:hover{background:url(selected-nav.png);text-decoration:none;height:13px}
+ul.links li{border-left:1px solid #9cf}
+#help{font-size:.9em;margin-bottom:1em}
+.block{border-bottom:1px solid #bbb;padding:5px;margin-bottom:1.5em;display:block}
+.block{padding:0 0 1.5em 0}
+.block .title{font-size:13px;margin-bottom:10px}
+.links{margin-bottom:0}
+.title,.title a{font-weight:700;font-size:1.3em;color:#333;margin:0 auto}
+.links{color:#999}
