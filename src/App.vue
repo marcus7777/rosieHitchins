@@ -7,7 +7,7 @@
       </div>
     </div>
     <div id="primary">
-      <ul class="links" id="navlist" style="margin: 0;padding: 0;">
+      <ul class="links" id="navlist" style="margin: 0;padding: 0;display: flex;justify-content: space-between;">
         <li v-for="page in menu" v-bind:key="page.path" style="display: inline;list-style-type: none"><router-link :to="page.path" :title="page.name">{{page.menu}}</router-link></li>
       </ul>
     </div>
